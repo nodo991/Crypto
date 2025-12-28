@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Market Dashboard: Live Quotes</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Global Market Overview</h1>
+        <nav>
+            <ul>
+                <li><a href="#market">Market</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+    <p style="color:#00ff00;">
+        Bitcoin surges 12% in the last hour!
+    </p>
+</aside>    
+
+    <main>
+        <section id="market">
+            <h2>Crypto Assets</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset</th>
+                        <th>Price</th>
+                        <th>24h Change</th>
+                        <th>Market Cap</th>
+                    </tr>
+                </thead>
+                    <tbody>
+    <tr>
+        <td><img src="assets/bitcoin.webp" alt="Bitcoin logo" width="20"> <em>BTC</em> <strong>Bitcoin</strong></td>
+        <td><strong>$34,250</strong></td>
+        <td><span class="positive">+5.2%</span></td>
+        <td>$650B</td>
+    </tr>
+    <tr>
+        <td><img src="assets/ethereum.webp" alt="Ethereum logo" width="20"> <em>ETH</em> <strong>Ethereum</strong></td>
+        <td><strong>$2,300</strong></td>
+        <td><span class="positive">+3.8%</span></td>
+        <td>$280B</td>
+    </tr>
+    <tr>
+        <td><img src="assets/tether.webp" alt="Tether logo" width="20"> <em>USDT</em> <strong>Tether</strong></td>
+        <td><strong>$1.00</strong></td>
+        <td><span class="positive">+0.1%</span></td>
+        <td>$68B</td>
+    </tr>
+    <tr>
+        <td><img src="assets/binance-coin.webp" alt="Binance Coin logo" width="20"> <em>BNB</em> <strong>Binance Coin</strong></td>
+        <td><strong>$390</strong></td>
+        <td><span class="positive">+2.5%</span></td>
+        <td>$67B</td>
+    </tr>
+    <tr>
+        <td><img src="assets/ripple.webp" alt="Ripple logo" width="20"> <em>XRP</em> <strong>Ripple</strong></td>
+        <td><strong>$0.75</strong></td>
+        <td><span class="negative">-1.0%</span></td>
+        <td>$36B</td>
+    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="stats">
+            <h2>Exchange Stats</h2>
+            <h3>Active Trading Pairs</h3>
+            <ul>
+                <li>BTC</li>
+                <li>ETH</li>
+                <li>BNB</li>
+            </ul>
+
+            <h3>Top Exchanges by Volume</h3>
+            <ol>
+                <li>Bitcoin</li>
+                <li>Ethereum</li>
+                <li>Binance Coin</li>
+            </ol>
+
+            <h3>Crypto Terms</h3>
+            <dl>
+                <dt>HODL</dt>
+                <dd>Holding an asset for the long term</dd>
+
+                <dt>FOMO</dt>
+                <dd>Fear of missing out on a profitable trade</dd>
+
+                <dt>Whale</dt>
+                <dd>An investor holding large amounts of crypto</dd>
+            </dl>
+        </section>
+
+        <section id="evidence">
+    <h2>Live Charts</h2>
+    <iframe 
+        src="https://www.tradingview.com/embed-widget/mini-symbol-overview/?symbol=BINANCE%3ABTCUSDT" 
+        style="width:100%; height:400px; border:0;" 
+        allowfullscreen>
+    </iframe>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2025 Global Digital Exchange. All rights reserved. | <a href="https://coinmarketcap.com" target="_blank">CoinMarketCap</a></p>
+    </footer>
+</body>
+</html>
